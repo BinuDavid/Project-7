@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>YourApp</h1>
+        <img src="icons/icon-bell.svg" alt="notifications icon">
+        <img src="images/member-profile.jpg" alt="profile pic">
+        <p>Josh Sullivan</p>
+    </header>
+
+    <!-- Sidebar -->
+    <nav>
+        <img src="icons/icon-dashboard.svg" alt="dashboard nav icon">
+        <img src="icons/icon-members.svg" alt="members nav icon">
+        <img src="icons/icon-visits.svg" alt="visits nav icon">
+        <img src="icons/icon-settings.svg" alt="settings nav icon">
+    </nav>
+
+    <h2>Dashboard</h2>
+    <input type="text" placeholder="Search" aria-label="Search"><img src="icons/icon-magnifying-glass.svg" alt="magnifying glass icon">
+    <p>Alert Nulla quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.</p>
+
+    <main>
+
+        <!-- Charts -->
+        <section>
+            <h3>TRAFFIC</h3>
+            <a href="#">Hourly</a>
+            <a href="#">Daily</a>
+            <a href="#">Weekly</a>
+            <a href="#">Monthly</a>
+
+        </section>
+
+        <section>
+            <h3>DAILY TRAFFIC</h3>
+
+        </section>
+
+        <section>
+            <h3>MOBILE USERS</h3>
+
+        </section>
+
+
+        <!-- Social Stats -->
+        <section>
+
+            <h3>SOCIAL STATS</h3>
+            
+            <section>
+                <div>
+                    <img src="icons/icon-twitter.svg" alt="Twitter Logo">
+                </div>
+
+                <h4>Twitter</h4>
+                
+                <p>10,345</p>
+            </section>
+
+            <section>
+                <div>
+                    <img src="icons/icon-facebook.svg" alt="Facebook Logo">
+                </div>
+                
+                <h4>Facebook</h4>
+                
+                <p>8,739</p>
+            </section>
+
+            <section>
+                <div>
+                    <img src="icons/icon-google-plus.svg" alt="Google+ Logo">
+                </div>
+                
+                <h4>Google+</h4>
+                
+                <p>2,530</p>
+            </section>
+        
+        </section>
+
+        <!-- New Memebers -->
+        <section>
+         
+            <h3>NEW MEMBERS</h3>
+            
+            <div>
+                <img src="images/member-1.jpg" alt="Victoria Chambers">
+                <p>Victoria Chambers</p>
+                <a href="#">victoria.chambers80@example.com</a>
+                <p class="member_date">10/15/15</p>
+            </div>
+            
+            <div>
+                <img src="images/member-2.jpg" alt="Dale Byrd">
+                <p>Dale Byrd</p>
+                <a href="#">dale.byrd52@example.com</a>
+                <p class="member_date">10/15/15</p>
+            </div>
+
+            <div>
+                <img src="images/member-3.jpg" alt="Dawn Wood">
+                <p>Dawn Wood</p>
+                <a href="#">dawn.wood16@example.com</a>
+                <p class="member_date">10/15/15</p>
+            </div>
+
+            <div>
+                <img src="images/member-4.jpg" alt="Dan Oliver">
+                <p>Dan Oliver</p>
+                <a href="#">dan.oliver82@example.com</a>
+                <p class="member_date">10/15/15</p>
+            </div>
+        </section>
+        
+        <section>
+
+            <h3>RECENT ACTIVITY</h3>
+        
+            <div>
+                <img src="images/member-1.jpg" alt="Victoria Chambers">
+                <p>Victoria Chambers commented on YourApp's SEO Tips</p>
+                <p class="posted">4 hours ago</p>
+            </div>
+            
+            <div>
+                <img src="images/member-2.jpg" alt="Dale Byrd">
+                <p>Dale Byrd like the post Facebook"s Changes for 2016</p>
+                <p class="posted">5 hours ago</p>
+            </div>
+
+            <div>
+                <img src="images/member-3.jpg" alt="Dawn Wood">
+                <p>Dawn Wood commented on Facebook's Changes for 2016</p>
+                <p class="posted">5 hours ago</p>
+            </div>
+
+            <div>
+                <img src="images/member-4.jpg" alt="Dan Oliver">
+                <p>Dan Oliver posted YourApp's SEO Tips</p>
+                <p class="posted">1 day ago</p>
+            </div>
+        </section>
+ 
+        <section>
+            <h3>MESSAGE USER</h3>
+
+            <input type="text" placeholder="Search for User" aria-label="Member Search">
+
+            <textarea name="userMsg" id="userMsg" cols="35" rows="8" placeholder="Message for User"></textarea>
+            
+            <button type="submit">SEND</button>
+        </section>
+
+        <section>
+            <h3>SETTINGS</h3>
+
+            <label for="email_notes_toggle">
+                Send Email Notifications
+                <input type="checkbox" name="email_notes_toggle" id="email_notes_toggle">
+            </label>
+<!-- TEMP FIX -- SWITCH TO MARGIN ON LABEL ELEMENT -->
+            <br>
+
+            <label for="email_notes_toggle">
+                Send Email Notifications
+                <input type="checkbox" name="email_notes_toggle" id="email_notes_toggle">
+            </label>
+
+<!-- TEMP FIX -- SWITCH TO MARGIN ON LABEL ELEMENT -->        
+            <br>
+
+            <select name="timezone" id="timezone">
+                <option value="Select Timezone" selected disabled hidden> Select Timezone</option>
+                <option value="EST">EST</option>
+                <option value="PST">PST</option>
+                <option value="CST">CST</option>
+                <option value="MST">MST</option>
+            </select>
+
+<!-- TEMP FIX -- SWITCH TO MARGIN ON LABEL ELEMENT -->        
+            <br>
+
+            <button type="submit">SAVE</button>
+
+<!-- TEMP FIX -- SWITCH TO MARGIN ON LABEL ELEMENT -->        
+            <br>
+
+            <button type="reset">CANCEL</button>
+
+        </section>
+
+    </main>
+</body>
+</html>
